@@ -22,7 +22,7 @@ public class SendEmailEventConsumer {
  //   @Value("${emailservice.user.password}")
 
 
-    public SendEmailEventConsumer(ObjectMapper objectmMapper){
+    public SendEmailEventConsumer(ObjectMapper objectMapper){
         this.objectMapper =  objectMapper;
     }
 
